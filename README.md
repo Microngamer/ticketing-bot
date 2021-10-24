@@ -34,6 +34,17 @@ If the terminal returns any errors, please see **Line []**
 * Database - While not the most advanced database out there, **quick.db** is one of my favourite npm packages, and is something I use in almost all my projects. This is used for transcripts and blacklist management.
 * Other fun commands - The bot is packed with other fun commands along the way!
 
+# ❗ Start-up Errors:
+```sh
+Error: Cannot find module ...
+```
+If you get this error, that means you are missing a dependency. Try running `npm install` in the terminal if you haven't already done so.
+
+```sh
+Error [TOKEN_INVALID]: An invalid token was provided.
+```
+That means the bot token you provided is invalid. Try checking what you've inserted in your `.env` file.
+
 # 👥 Credits + Licensing
 This bot was written by **_UnknownShadow#7462**.
 You don't have to give me credit, but you can at least leave a **link** to [this repository](https://github.com/unknownshadow-s/ticketing-bot) in your application's **About Me** page.
