@@ -36,7 +36,7 @@ If the terminal returns any errors, please see **Line []**
 
 # 👥 Credits + Licensing
 This bot was written by **_UnknownShadow#7462**.
-You don't have to give me credit, but you can at least leave a **link** to (this repository)[https://github.com/unknownshadow-s/ticketing-bot] in your application's **About Me** page.
+You don't have to give me credit, but you can at least leave a **link** to [this repository](https://github.com/unknownshadow-s/ticketing-bot) in your application's **About Me** page.
 
 Do **not** re-upload this code without my permission.
 
