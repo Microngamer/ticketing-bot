@@ -26,7 +26,7 @@ It's more faff if you enable all of these seperately, so I'd just suggest giving
 Once you've installed all of the dependencies and edited `.env`, you can start the bot.
 You can run either `npm start`, `node .` or `node src/index.js` to get the bot up and running.
 
-If the terminal returns any errors, please see **Line []**
+If the terminal returns any errors, please see below.
 
 # 📋 Bot Features
 * Transcripts - The bot will give you an option to save a transcript upon closing a ticket, which will return all the chat logs.
