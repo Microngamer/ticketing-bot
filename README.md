@@ -24,7 +24,7 @@ It's more faff if you enable all of these seperately, so I'd just suggest giving
 
 # 🤖 Start-up
 Once you've installed all of the dependencies and edited `.env`, you can start the bot.
-You can run either `npm start`, `node .` or `node src/index.js` to get the bot up and running.
+You can run either `npm start`, `node .` or `node src/bot/index.js` to get the bot up and running.
 
 If the terminal returns any errors, please see below.
 
