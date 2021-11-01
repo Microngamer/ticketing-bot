@@ -45,6 +45,11 @@ Error [TOKEN_INVALID]: An invalid token was provided.
 ```
 That means the bot token you provided is invalid. Try checking what you've inserted in your `.env` file.
 
+```sh
+Error [DISALLOWED_INTENTS]: Privileged intent provided is not enabled or whitelisted.
+```
+If you get this error, you must enable the "Presence Intent" and "Server Members Intent" on your application page. Navigate to **bot**, scroll down and enable them.
+
 # 👥 Credits + Licensing
 This bot was written by **_UnknownShadow#7462**.
 You don't have to give me credit, but you can at least leave a **link** to [this repository](https://github.com/unknownshadow-s/ticketing-bot) in your application's **About Me** page.
