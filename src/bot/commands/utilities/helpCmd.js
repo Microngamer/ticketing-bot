@@ -23,7 +23,7 @@ module.exports = {
         const pingCmd = client.commands.get(`ping`)
         const testCmd = client.commands.get(`test`)
 
-        message.channel.send({content: `> 🗒 Help Command: \n \n**Tickets:** \n\`${addCmd.name}\` - ${addCmd.description} \n\`${blacklistCmd.name}\` - ${blacklistCmd.description} \n\`${removeCmd.name}\` - ${removeCmd.description} \n\`${whitelistCmd.name}\` - ${whitelistCmd.description} \n \n**Utilities** \n\`${guildinfoCmd.name}\` - ${guildinfoCmd.description} \n\`${helpCmd.name}\` - ${helpCmd.description} \n\`${pingCmd.name}\` - ${pingCmd.description} \n\`${pingCmd.name}\` - ${pingCmd.description}`})
+        message.channel.send({content: `> 🗒 Help Command: \n \n**Tickets:** \n\`${addCmd.name}\` - ${addCmd.description} \n\`${blacklistCmd.name}\` - ${blacklistCmd.description} \n\`${removeCmd.name}\` - ${removeCmd.description} \n\`${whitelistCmd.name}\` - ${whitelistCmd.description} \n \n**Utilities** \n\`${guildinfoCmd.name}\` - ${guildinfoCmd.description} \n\`${helpCmd.name}\` - ${helpCmd.description} \n\`${pingCmd.name}\` - ${pingCmd.description} \n\`${testCmd.name}\` - ${testCmd.description}`})
 
     }
 }
