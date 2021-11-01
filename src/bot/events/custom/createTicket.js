@@ -128,7 +128,7 @@ client.on("messageCreate", async (message) => {
 
                         i.user.send({content: `> 🎫 **Ticket Transcript:** (ID: ${message.author.id}) \n◽ ${logs}`})
 
-                        message.channel.send({content: `> 🎫 I have sent the transcript to your Direct Messages!`, ephemeral: true})
+                        ticketChannel.send({content: `> 🎫 I have sent the transcript to your Direct Messages!`, ephemeral: true})
                     } else if (i.customId === `Delete_Button`) {
                         i.deferUpdate()
                         yes.delete()
